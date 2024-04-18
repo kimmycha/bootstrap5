@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link 
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Pablo_ Intro to Bootstrap 5</title>
+</head>
+
+<body>
+    <body style="background-color: rgb(223, 83, 83);"></body>
+
+    <!--main container-->
+    <div class="container-fluid p-4 bg-success-subtle text-black text-center">
+        <img src="images/losdh.png" class="img-fluid" class="float-start">
+      </div>
+    <!--end-->
+
+    <!--containers-->
+      <div class="container mt-5 ">
+        <div class="row">
+
+          <div class="col-sm-3 text-center mb-5" style="color: aliceblue;">
+            <img src="images/2cb2a1fe2640c1c7b5bfccf0a7632b3d.jpg" style="height: 150px;box-shadow: 6px 6px 5px rgb(175, 64, 64)"
+            class="img-fluid; mt-3 mb-2">
+            <h3 class="text-warning" style="-webkit-text-stroke: 0.4px; -webkit-text-stroke-color: rgb(255, 163, 58);">Column 1</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+            <button type="button" class="btn btn-primary mb-3" style="box-shadow: 6px 6px 5px rgb(175, 64, 64)">View</button>
+          </div>
+
+          <div class="col-sm-3 bg-success text-center mb-5" style="box-shadow: 6px 6px 5px rgb(175, 64, 64);"> 
+            <img src="images/660a992aeac64ce50e0315daf47fae2c.jpg" style="height: 150px; box-shadow: 6cm;"
+            class="img-fluid; mt-3 mb-2">
+            <h3 class="text-warning" style="-webkit-text-stroke: 0.4px; -webkit-text-stroke-color: rgb(255, 163, 58);">Column 2</h3>
+            <p style="color: aliceblue;">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+            <p style="color: aliceblue;">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+            <button type="button" class="btn btn-primary mb-3" style="box-shadow: 4px 4px 5px rgb(35, 102, 52)">View</button>
+          </div>
+
+          <div class="col-sm-3 text-center mb-5"  style="color: aliceblue;">
+            <img src="images/a7530f543c0ae0f3d0866b9e19c8306e.jpg" style="height: 150px; box-shadow: 6px 6px 5px rgb(175, 64, 64)"
+            class="img-fluid; mt-3 mb-2">
+            <h3 class="text-warning" style="-webkit-text-stroke: 0.4px; -webkit-text-stroke-color: rgb(255, 163, 58);">Column 3</h3>        
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+            <button type="button" class="btn btn-primary mb-3" style="box-shadow: 6px 6px 5px rgb(175, 64, 64)">View</button>
+          </div>
+
+          <div class="col-sm-3 bg-success text-center mb-5" style="box-shadow: 6px 6px 5px rgb(175, 64, 64);">
+            <img src="images/0c7c7b4e6c0b656db369de5bea7b03ba.jpg" style="height: 150px; box-shadow: 6cm;"
+            class="img-fluid; mt-3 mb-2">
+            <h3 class="text-warning" style="-webkit-text-stroke: 0.4px; -webkit-text-stroke-color: rgb(255, 163, 58);">Column 4</h3>        
+            <p style="color: aliceblue;">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+            <p style="color: aliceblue;">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+            <button type="button" class="btn btn-primary mb-3" style="box-shadow: 4px 4px 5px rgb(35, 102, 52)">View</button>
+          </div>
+
+        </div>
+      </div>  
+    <!--end of containers-->   
+
+    <!--start of carousel-->
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner" style="height: 350px;">
+        <div class="carousel-item active">
+            <img src="images/b3e1afaeee694e90ac890843797466cd.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="images/cc30aa1b058a608312a612f2d8b8a161.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+        </div>
+        <div class="carousel-item" s>
+            <img src="images/da71853ef88217f6fdcac310a4db2e0b.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+        </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!--end of carousel-->
+
+    <div class="container-fluid p-3 bg-success text-black text-center"> </div>
+
+    <!--containers-->
+    <div class="container-fluid p-4 bg-success">
+      <div class="row">
+
+        <div class="col-sm-3 bg-warning text-center mb-5" style="box-shadow: 6px 6px 5px rgb(35, 102, 52);">
+          <img src="images/20d30f4352cae58a35837821f386ce31.jpg" style="height: 150px; box-shadow: 6cm;"
+          class="img-fluid; mt-3 mb-2">
+          <h3 class="text-primary" style="-webkit-text-stroke: 0.4px; -webkit-text-stroke-color: rgb(38, 75, 236);">Column 5</h3>
+          <p style="color: rgb(0, 0, 0);">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+          <p style="color: rgb(0, 0, 0);">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+          <button type="button" class="btn btn-primary mb-3" style="box-shadow: 3px 3px 4px rgb(141, 123, 23)">View</button>
+        </div>
+
+        <div class="col-sm-3 text-center mb-5" style="color: aliceblue;"> 
+          <img src="images/5630e22609ad0babb050673bdea27f39.jpg" style="height: 135px; box-shadow: 6px 6px 5px rgb(35, 102, 52)"
+          class="img-fluid; mt-3 mb-2">
+          <h3 class="text-warning" style="-webkit-text-stroke: 0.4px; -webkit-text-stroke-color: rgb(255, 163, 58);">Column 6</h3>
+          <p style="color: aliceblue;">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+          <p style="color: aliceblue;">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+          <button type="button" class="btn btn-primary" style="box-shadow: 4px 4px 5px rgb(35, 102, 52)">View</button>
+        </div>
+
+        <div class="col-sm-3 bg-warning text-center mb-5"  style="box-shadow: 6px 6px 5px rgb(35, 102, 52);">
+          <img src="images/626e8152fd6c054fecd52c69f09d95a0.jpg" style="height: 150px; box-shadow: 6cm;"
+          class="img-fluid; mt-3 mb-2">
+          <h3 class="text-primary" style="-webkit-text-stroke: 0.4px; -webkit-text-stroke-color: rgb(38, 75, 236);">Column 7</h3>        
+          <p style="color: rgb(0, 0, 0);">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+          <p style="color: rgb(0, 0, 0);">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+          <button type="button" class="btn btn-primary mb-3" style="box-shadow: 3px 3px 4px rgb(141, 123, 23)">View</button>
+        </div>
+
+        <div class="col-sm-3 text-center mb-5" style="color: aliceblue;">
+          <img src="images/ca0e15526df3873add320639f0a78e2d.jpg" style="height: 150px; box-shadow: 6px 6px 5px rgb(35, 102, 52)"
+          class="img-fluid; mt-3 mb-2">
+          <h3 class="text-warning" style="-webkit-text-stroke: 0.4px; -webkit-text-stroke-color: rgb(255, 163, 58);">Column 8</h3>        
+          <p style="color: aliceblue;">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+          <p style="color: aliceblue;">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+          <button type="button" class="btn btn-primary mb-3" style="box-shadow: 4px 4px 5px rgb(35, 102, 52)">View</button>
+        </div>
+
+      </div>
+    </div>  
+  <!--end of containers-->  
+
+  <!--footer-->
+  <footer class="text-center bg-warning">
+    <!-- Grid container -->
+    <div class="container pt-4">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a
+          data-mdb-ripple-init
+          class="btn btn-link btn-floating btn-lg text-body m-1"
+          href="https://www.facebook.com/kimi.chaaan"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+  
+        <!-- Twitter -->
+        <a
+          data-mdb-ripple-init
+          class="btn btn-link btn-floating btn-lg text-body m-1"
+          href="https://twitter.com/_clarapablo"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="fab fa-twitter"></i
+        ></a>
+  
+        <!-- Google -->
+        <a
+          data-mdb-ripple-init
+          class="btn btn-link btn-floating btn-lg text-body m-1"
+          href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="fab fa-google"></i
+        ></a>
+  
+        <!-- Instagram -->
+        <a
+          data-mdb-ripple-init
+          class="btn btn-link btn-floating btn-lg text-body m-1"
+          href="https://www.instagram.com/_krimie/"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="fab fa-instagram"></i
+        ></a>
+      <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2020 Copyright:
+      <a class="text-body" href="https://mdbootstrap.com/">Mad Brain Studios</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <script src="script.js"></script>
+    <script 
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        src="script.js">
+    </script>
+</body>
+</html>
